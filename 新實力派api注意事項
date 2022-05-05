@@ -1,0 +1,7 @@
+新實力派api注意事項
+
+1.固定排成
+* * * * * php /path/to/artisan schedule:run >> /dev/null 2>&1
+
+2.需觸發一次
+背景執行 php artisan queue:work --tries=3
